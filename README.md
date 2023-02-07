@@ -59,8 +59,16 @@ Accuracy	(TP+TN)/(TP+TN+FP1+FP2+FN)	0.909
 Precision	TP/(TP+FP1+FP2)	0.939
 Recall	TP/(TP+FN)	0.953
 
+#Setup
+1)Clone the repository:https://github.com/akshaymenon8438/Computer-Vision-Engineering.
+2) Run pip3 install -r requirements.txt to install packages required.
 
-Setup
-Clone the repository:https://github.com/akshaymenon8438/Computer-Vision-Engineering
-Run pip3 install -r requirements.txt to install packages required.
+
+# For Player service fault detection algorithm
+1) Clone the repository:https://github.com/akshaymenon8438/Computer-Vision-Engineering and import "Player service fault detection " algorithm code. 
+2) Change the directory path with custom video of the player whose motion needs to be detected. 
+3) Save the coordinates of each body point as csv files.
+4) The body points undergoes train and test split hence this can be used to fed into  machine learning model to get weight .
+5) The saved weight is categorized by class and probability of the class achieved.
+
 
