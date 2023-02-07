@@ -35,10 +35,7 @@ score analysis.
 # Train with custom dataset
 python train.py --save_weights_path=weights/model.h5 --training_images_name="training.csv" --epochs=500 --n_classes=256 --  input_height=512 --input_width=288 --load_weights=2 --step_per_epochs=200 --batch_size=2
 
-7) 
-
-
-Parameter of training
+7) Parameter of training
 Parameter	Value
 Image size	512 x 288
 Heat map ball radius	2.5 pixel
@@ -64,6 +61,6 @@ Recall	TP/(TP+FN)	0.953
 
 
 Setup
-Clone the repository:https://github.com/Chang-Chia-Chi/TrackNet-Badminton-Tracking-tensorflow2.git
+Clone the repository:https://github.com/akshaymenon8438/Computer-Vision-Engineering
 Run pip3 install -r requirements.txt to install packages required.
 
